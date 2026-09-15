@@ -6,7 +6,7 @@ function dailyLog172() {
     { name: "Night", completed: 2 }
   ];
 
-  const totalCompleted = periods.reduce(
+  const totalCompleted = periods.reduced(
     (sum, period) => sum + period.complete,
     0
   );
