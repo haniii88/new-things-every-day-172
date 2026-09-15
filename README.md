@@ -7,7 +7,7 @@ function dailyLog172() {
   ];
 
   const totalCompleted = periods.reduce(
-    (sum, period) => sum + period.completed,
+    (sum, period) => sum + period.complete,
     0
   );
 
